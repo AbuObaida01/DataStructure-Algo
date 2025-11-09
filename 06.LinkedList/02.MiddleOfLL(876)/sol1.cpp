@@ -11,6 +11,7 @@ class Node{
     Node(int x): val(x), next(NULL){}
 };
 Node* middle(Node* head){
+    if(!head) return NULL;
     vector<Node*> node;
     while(head){
         node.push_back(head);

@@ -13,6 +13,7 @@ class Node{
 
 };
 Node* middle(Node* head){
+    if(!head) return NULL;
     Node* slow=head;
     Node* fast=head;
     while(fast && fast->next){
