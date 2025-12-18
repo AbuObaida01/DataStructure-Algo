@@ -16,6 +16,6 @@ int LengthofLong(string s){
     return ans;
 }
 int main(){
-    string s="ababbb";
+    string s="ababbbabcd";
     cout<<LengthofLong(s);
 }
